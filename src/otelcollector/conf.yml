@@ -1,0 +1,23 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+      http:
+
+exporters:
+  jaeger:
+    endpoint: "jaeger:14250"
+    tls:
+      insecure: true
+  logging:
+    loglevel: debug
+  otlphttp:
+    endpoint: https://marilyn202301190926549.saas.appdynamics.com
+    headers: { "x-api-key": "1d2609cc83cbd5fa2f77a14627c55f5659c6426e78fef86fa8ebbdb51528d8fe" }
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: []
+      exporters: [logging,jaeger]
