@@ -25,7 +25,7 @@ If you’re using this demo, please **★Star** this repository to show your int
 
 ## Screenshots from Jaeger
 | Jaeger UI                                                                                                         | Trace View                                                                                                    |
-| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | [![Screenshot of Jaeger UI](./docs/img/jaeger-ui.png)](./docs/img/jaeger-ui.png) | [![Screenshot of Trace View](./docs/img/jaeger-trace-view.png)](./docs/img/jaeger-trace-view.png) |
 
 ## Quickstart (GKE)
